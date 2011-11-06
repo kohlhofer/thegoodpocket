@@ -1,0 +1,175 @@
+temp {
+    font-family: 'IM Fell English SC', serif;
+    font-family: 'IM Fell DW Pica SC', serif;
+    font-family: 'Miltonian', cursive;
+    font-family: 'Cabin Sketch', cursive;
+}
+
+body {
+    background: url(img/fabric_extra_light.jpg) #EEE;
+}
+
+p {
+    line-height: 1.5em;
+    margin-bottom: 1em !important;
+}
+
+item {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+item a {
+    padding: 5px;
+    display: block;
+    background: #FFF;
+    color: #FFF;
+    overflow: hidden;
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.38);
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.38);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.38);
+    text-decoration: none;
+}
+
+item a > img {
+    height: 180px;
+    width: 210px;
+    border: 0px;
+    margin: 0;
+    background-color: #EEE;
+}
+
+carry {
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+carry > * {
+    display: none;
+    float: right;
+    width:20px;
+    height:20px;
+    margin-left: 10px;
+    background-color: rgba(0, 0, 0, 0.36);
+}
+
+itemLabel {
+    display: block;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    color: #FFF;
+    padding: 7px 10px 5px 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    font-family: 'Vollkorn', serif;
+    text-shadow: 0 1px 2px #000000;
+}
+
+a:hover productname {
+    display: block;
+}
+
+productname {
+    padding: 3px 0 3px 0;
+    display: none;
+    background: url(img/arrow_small.png) no-repeat right center;
+    padding-right: 22px;
+    border-top: 1px solid #fffd79;
+    color: #fffd79;
+    font: 0.9em 'Rosario', sans-serif;
+}
+
+type {
+  font-size: 1em;
+  display: block;
+  padding-bottom: 1px;
+}
+
+pageHeader {
+    text-align: center;
+    padding: 0 0 1.5em 0;
+    display: block;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.7);
+    margin-bottom: 1.5em;
+    background: url(img/fabric.jpg) repeat #321;
+}
+
+logo {
+    display: block;
+    margin: 0.7em 0 0.2em 0;
+    text-shadow: 0 -2px 0px #000000;
+    font: 3em 'IM Fell DW Pica SC', serif;
+}
+
+logo a {
+    color: rgba(255, 255, 255, 0.9);
+	text-decoration:none;
+}
+
+tagline {
+    border-top: 2px dashed rgba(0, 0, 0, 0.7);;
+    padding-top: 0.3em;
+    color: rgba(255, 243, 128, 0.9);
+    text-shadow: 0 -1px 0px #000000;
+    font: 1.3em 'Vollkorn', serif;
+}
+
+social {
+    display: block;
+    float: right;
+    padding: 0.8em;
+    margin-top: 1.5em;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+social > * {
+    margin: 0 0 1em 0;
+}
+
+intro {
+    text-shadow: 0 1px 0;
+}
+
+intro > p:first-child:first-letter {
+    font-size: 5.2em;
+    float: left;
+    margin: 0em 0.15em -0.2em -0.1em;
+    line-height: 1em;
+    font-family: 'IM Fell DW Pica SC', serif;
+}
+
+
+.backButton {
+    display: block;
+    width:36px; 
+    height:36px;
+    text-indent: -500px;
+    overflow: hidden;
+    background: url(img/back.png) no-repeat left top;
+}
+
+.backButton:hover {
+    background: url(img/backHover.png) no-repeat left top;
+}
+
+description p {
+    border-top: 2px solid #9a8168;
+    padding: 0.5em 0;
+}
+
+description p:last-child {
+    border-bottom: 2px solid #9a8168;
+}
+
+productCaption {
+    font: 1.2em 'Vollkorn', serif;
+    display: block;
+    margin-top: 1em;
+    color: #544638;
+}

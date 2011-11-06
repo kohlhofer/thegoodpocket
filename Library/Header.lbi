@@ -1,0 +1,38 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">        <pageHeader>
+            <div class="container_12">
+                
+                <div class="grid_8 prefix_2">
+                    <logo><a href="/index.html" title="Open the home page">The Good Pocket</a></logo>
+                    <tagline>One Every Day Carry, Est. 2011</tagline>
+                </div>
+                
+                <div class="grid_2">
+                    <social>
+                    
+                        <!-- Place this tag where you want the +1 button to render -->
+                        <g:plusone size="medium"></g:plusone>
+                        
+                        <!-- Place this render call where appropriate -->
+                        <script type="text/javascript">
+                          (function() {
+                            var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                            po.src = 'https://apis.google.com/js/plusone.js';
+                            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+                          })();
+                        </script>
+                        
+                        <div id="fb-root"></div>
+                        <script>(function(d, s, id) {
+                          var js, fjs = d.getElementsByTagName(s)[0];
+                          if (d.getElementById(id)) {return;}
+                          js = d.createElement(s); js.id = id;
+                          js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+                          fjs.parentNode.insertBefore(js, fjs);
+                        }(document, 'script', 'facebook-jssdk'));</script>
+                        
+                        <div class="fb-like" data-href="http://edc.kohlhofer.com/" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false" data-colorscheme="light" data-font="arial"></div>
+                    </social>
+                </div>
+            
+            </div>
+        </pageHeader>
