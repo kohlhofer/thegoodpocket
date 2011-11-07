@@ -161,6 +161,7 @@ intro > p:first-child:first-letter {
 description p {
     border-top: 2px solid #9a8168;
     padding: 0.5em 0;
+	margin:0px;
 }
 
 description p:last-child {
