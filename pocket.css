@@ -133,7 +133,6 @@ social > * {
 }
 
 intro {
-    text-shadow: 0 1px 0;
 }
 
 intro > p:first-child:first-letter {
@@ -159,7 +158,7 @@ intro > p:first-child:first-letter {
 }
 
 description p {
-    border-top: 2px solid #9a8168;
+    border-top: 1px solid #9a8168;
     padding: 0.5em 0;
 	margin:0px;
 }
